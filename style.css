@@ -5,13 +5,13 @@
 
 }
 body{
-font-family: sans-serif;
+/* font-family: sans-serif; */
 background-image: url(bgimage.jpg);
 background-repeat: no-repeat;
 height: 100%;
 width: 100%;
 background-size: cover;
-
+font-family: "Noto Sans", sans-serif;
 }
 .main {
     /* display: flex;
