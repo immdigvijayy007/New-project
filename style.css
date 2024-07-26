@@ -5,13 +5,13 @@
 
 }
 body{
-/* font-family: sans-serif; */
+font-family: sans-serif;
 background-image: url(bgimage.jpg);
 background-repeat: no-repeat;
 height: 100%;
 width: 100%;
 background-size: cover;
-font-family: "Noto Sans", sans-serif;
+/* font-family: "Noto Sans", sans-serif; */
 }
 .main {
     /* display: flex;
@@ -84,10 +84,17 @@ color: red;
 
 }
 .second{
-width: 270px;
+width: 100vw;
 margin-left: 230px;
 margin-top: 150px;
+display: flex;
+/* display: inline; */
+/* justify-content: space-between; */
 }
+/* .maincontent{
+width: 10vw;
+
+} */
 .second p{
 color: white;
 margin-top: 15px;
@@ -112,4 +119,16 @@ button:hover{
 border: 1.5px solid white;
 transition: all .3s;
 
+}
+
+.userimg{
+height: 100px;
+padding-left: 100px;
+
+}
+img{
+    margin-left: 350px;
+/* padding-left: 350px; */
+height: 300px;
+width: 300px;
 }
